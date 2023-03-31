@@ -17,4 +17,10 @@ public class Person {
     }
     String name;
     Integer age;
+    
+    //This function will return the result,whether a person is adult or not.
+    public boolean isAdult(Integer age) {
+        if (age >= 18) return true;
+        else return false;
+    }
 }
