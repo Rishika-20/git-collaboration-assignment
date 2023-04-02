@@ -15,12 +15,12 @@ public class Person {
     public void setAge(Integer age) {
         this.age = age;
     }
-    String name;
+   private String name;
     /*original attribute.
      Integer age; */
 
     //typo mistake
-    Integer person_age;
+   private Integer person_age;
 
 
 
