@@ -1,8 +1,9 @@
 public class Person {
-    public Person(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
+    
+     String name;
+    Integer age;
+    
+  // adding getter and setter method. 
     public String getName() {
         return name;
     }
@@ -15,9 +16,12 @@ public class Person {
     public void setAge(Integer age) {
         this.age = age;
     }
-    String name;
-    Integer age;
-    
+       //creating constructor.
+      public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+   
     //This function will return the result,whether a person is adult or not.
     public boolean isAdult(Integer age) {
         if (age >= 18) return true;
