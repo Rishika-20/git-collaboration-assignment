@@ -17,7 +17,7 @@ public class Person {
         this.age = age;
     }
        //creating constructor.
-      public Person(String name, Integer age) {
+      public Person() {
         this.name = name;
         this.age = age;
     }
