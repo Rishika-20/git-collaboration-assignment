@@ -1,8 +1,13 @@
 public class Person {
-    public Person(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
+    
+     private String name;
+    /*original attribute.
+     Integer age; */
+
+    //typo mistake
+   private Integer person_age;
+    
+    //Adding getter and setter methods.
     public String getName() {
         return name;
     }
@@ -14,15 +19,12 @@ public class Person {
     }
     public void setAge(Integer age) {
         this.age = age;
+    }  
+
+ public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
     }
-   private String name;
-    /*original attribute.
-     Integer age; */
-
-    //typo mistake
-   private Integer person_age;
-
-
 
     //This function will return the result,whether a person is adult or not.
     public boolean isAdult(Integer age) {
