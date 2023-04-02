@@ -1,7 +1,7 @@
 public class Person {
     
-     String name;
-    Integer age;
+   private  String name;
+   private Integer age;
     
   // adding getter and setter method. 
     public String getName() {
